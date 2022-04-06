@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/icon.calculator.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <title>Calculator</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div class="valores-previos"></div>
+                <div class="valores-actuales"></div>
+            </div>
+                <input class="number" type="button" value="7">
+                <input class="number" type="button" value="8">
+                <input class="number" type="button" value="9">
+                <input id="C" type="button" value="C">
+                <input id="del" type="button" value="Del">
+                <input class="number" type="button" value="6">
+                <input class="number" type="button" value="5">
+                <input class="number" type="button" value="4">
+                <input class="operator" type="button" value="+">
+                <input class="operator" type="button" value="/">
+                <input class="number" type="button" value="1">
+                <input class="number" type="button" value="2">
+                <input class="number" type="button" value="3">
+                <input class="operator" type="button" value="-">
+                <input class="operator" type="button" value="x">
+                <input class="number" id="cero" type="button" value="0">
+                <input class="number" id="punto" type="button" value=".">
+                <input id="equal" type="button" value="=">
+                <button class="dark-mode" type="checkbox" onclick="darkMode()">Mode</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
